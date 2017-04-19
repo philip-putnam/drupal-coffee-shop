@@ -16,7 +16,7 @@
   margin-bottom: 8px;
   text-align: justify;
   height: 80px;
-  width: 63px;
+  width: 239px;
 }
 
 .easy_social_box .easy_social-widget {
@@ -28,6 +28,7 @@
   background-position: 0% 100%;
   margin-left: 0px;
   height: 62px;
+  width: 0px;
 }
 
 .easy_social_box .first {
@@ -43,5 +44,9 @@
 
 div .easy_social-widget {
   height: 61px;
+}
+
+.region #block-views-todo-list-block-1 {
+  width: 300px;
 }
 
