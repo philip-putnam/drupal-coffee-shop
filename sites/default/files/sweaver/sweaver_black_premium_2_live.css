@@ -1,0 +1,35 @@
+#name-and-slogan #site-slogan {
+  font-family: 'Comic Sans MS',Cursive;
+  font-style: normal;
+  text-align: center;
+  background-color: #1f0a1f;
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+}
+
+.content .easy_social_box {
+  margin-top: 60px;
+  padding-top: 0px;
+  border-top-width: 0px;
+  margin-bottom: 8px;
+  text-align: justify;
+}
+
+.easy_social_box .easy_social-widget {
+  margin-top: 0px;
+  padding-top: 0px;
+  margin-right: 0px;
+  background-repeat: repeat;
+  background-attachment: scroll;
+  background-position: 0% 100%;
+  margin-left: 0px;
+}
+
+.easy_social_box .first {
+  padding-top: 0px;
+  margin-top: 0px;
+  height: 30px;
+}
+
