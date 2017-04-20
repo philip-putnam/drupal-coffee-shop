@@ -1,0 +1,22 @@
+<?php
+
+function specials_menu() {
+  $items = array();
+  $items['specials'] = array(
+    'title' => "Cameron's Daily Specials",
+    'page callback' => 'specials_display',
+    'access callback' => TRUE,
+    'type' => MENU_NORMAL_ITEM,
+  );
+  return $items;
+}
+
+function specials_display() {
+  return '
+    <ul>
+      <li>Chai Latte</li>
+      <li>Chocolate Bacon Cookies</li>
+      <li>Salted caramel apple croissant</li>
+    </ul>
+  ';
+}
