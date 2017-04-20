@@ -24,12 +24,16 @@ function sum_form() {
     '#title' => 'Left Number',
     '#type' => 'textfield',
     '#description' => t('Please enter your starting number'),
+    '#element_validate' => array('element_validate_integer'),
+    '#required' => TRUE,
   );
 
   $form['right_number'] = array(
     '#title' => 'Right Number',
     '#type' => 'textfield',
     '#description' => t('Please enter a number to add to the your number'),
+    '#element_validate' => array('element_validate_integer'),
+    '#required' => TRUE,
   );
 
   $form['submit'] = array(
