@@ -1,0 +1,5 @@
+name = WV Custom
+description = Adds imdb and drupal to follow module
+package = My Custom Module
+core = 7.x
+files[] = wv_custom.module

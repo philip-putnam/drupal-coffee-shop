@@ -1,0 +1,14 @@
+<?php
+
+function wv_custom_follow_networks_alter(&$networks, $uid = 0) {
+  // Add a network.
+  $networks[$uid]['imdb'] = array(
+    'title' => t('IMDB'),
+    'domain' => 'imdb.com',
+  );
+
+  $networks[$uid]['drupal'] = array(
+    'title' => t('Drupal.org'),
+    'domain' => 'drupal.org',
+  );
+}
