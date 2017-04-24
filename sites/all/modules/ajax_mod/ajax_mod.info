@@ -1,0 +1,5 @@
+name = My Ajax Node Loader
+description = Display NOdes with Ajax
+package = Epicodus Examples
+core = 7.x
+files[] = ajax_mod.module
